@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,25 +23,26 @@ main {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  width: 50vw;
+  width: 48vw;
 }
-.container__headline,
-.container__column {
-  padding: 2rem;
+.headline {
+  padding-top: 2.3rem;
+  padding-left: 2.1rem;
+  margin-bottom: 2rem;
 }
-.container__headline h1 {
+.headline h1 {
   color: var(--Cyan);
-  margin-bottom: 1rem;
+  padding-bottom: 1.2rem;
 }
-.container__headline h2 {
+.headline h2 {
   color: var(--brightYellow);
   font-size: 1rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.9rem;
 }
-.container__headline p {
+.headline p {
   color: var(--grayishBlue);
   line-height: 1.5;
-  margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 .row {
   display: flex;
@@ -63,19 +64,23 @@ main {
   padding: 2rem;
 }
 .contentOne h3 {
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1.1rem;
 }
 .contentOne p {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 .contentOne p:nth-child(3) {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 300;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 span {
   font-size: 0.8rem;
+  font-weight: 300;
   padding-left: 10px;
   color: var(--lightGray);
 }
@@ -84,9 +89,22 @@ button {
   outline: none;
   border: none;
   border-radius: 5px;
-  width: 80%;
-  padding: 10px;
+  width: 90%;
+  padding: 15px;
   color: #fff;
   margin-top: 20px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.contentTwo h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  margin-bottom: 1.1rem;
+}
+.contentTwo p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--lightGray);
 }
