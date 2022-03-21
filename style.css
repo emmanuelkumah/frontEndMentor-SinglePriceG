@@ -53,12 +53,32 @@ main {
 .col__1 {
   background-color: var(--Cyan);
   font-weight: 400;
+  border-bottom-left-radius: 5px;
+  padding: 2rem;
 }
 .col__2 {
   background-color: var(--Cyan);
   opacity: 0.9;
+  border-bottom-right-radius: 5px;
+  padding: 2rem;
 }
-
+.contentOne h3 {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.contentOne p {
+  font-size: 1.3rem;
+}
+.contentOne p:nth-child(3) {
+  font-size: 0.8rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+span {
+  font-size: 0.8rem;
+  padding-left: 10px;
+  color: var(--lightGray);
+}
 button {
   background-color: var(--brightYellow);
   outline: none;
@@ -67,6 +87,6 @@ button {
   width: 80%;
   padding: 10px;
   color: #fff;
-
+  margin-top: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
